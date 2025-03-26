@@ -50,7 +50,7 @@
   
   .hero-image {
     width: 100%;
-    display: auto;
+    display: block;
   }
   
   .hero h1 {
@@ -111,3 +111,9 @@
     text-decoration: none;
   }
   
+  /* Small Rafting Images */
+  .small-raft-img {
+    width: 200px;
+    height: auto;
+    margin: 0.5rem;
+  }
