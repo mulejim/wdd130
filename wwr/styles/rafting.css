@@ -1,3 +1,4 @@
+/* Root Variables */
 :root {
     --primary-color: #505033;
     --secondary-color: #264969;
@@ -9,6 +10,7 @@
     --social-icon-size: 30px;
   }
   
+  /* Base Styles */
   body {
     font-family: var(--text-font);
     color: var(--primary-color);
@@ -29,6 +31,7 @@
     color: var(--primary-color);
   }
   
+  /* Header */
   header {
     padding: 1rem;
     background-color: var(--accent1-color);
@@ -45,6 +48,7 @@
     text-decoration: none;
   }
   
+  /* Hero Section */
   .hero {
     position: relative;
     text-align: center;
@@ -59,36 +63,38 @@
   .hero h1 {
     position: absolute;
     top: 20%;
-    /* Center the element horizontally and vertically */
+    left: 50%;
     transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 1rem;
     border-radius: 10px;
   }
+  
   .hero article {
-      position: absolute;
-      bottom: 10%;
-      left: 10%;
-      right: 10%;
-      background-color: rgba(255, 255, 255, 0.9);
-      padding: 1rem;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-    }
-    
-    .hero article img {
-      margin-left: 1rem;
-      width: 150px;
-    }
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+    border-radius: 10px;
+  }
   
+  .hero article img {
+    float: right;
+    margin-left: 1rem;
+    width: 150px;
+    height: auto;
+  }
   
+  /* Sections */
   section {
     padding: 2rem 1rem;
     background-color: var(--accent2-color);
     margin: 1rem 0;
   }
   
+  /* Footer */
   footer {
     background-color: var(--accent1-color);
     padding: 1rem;
@@ -98,6 +104,7 @@
   footer p {
     margin: 0;
   }
+  
   .sociallinks a img {
     width: var(--social-icon-size);
     height: var(--social-icon-size);
@@ -108,6 +115,7 @@
     text-decoration: none;
   }
   
+  /* Small Rafting Images */
   .small-raft-img {
     width: 200px;
     height: auto;
