@@ -6,6 +6,7 @@
   
     --heading-font: 'Georgia', serif;
     --text-font: 'Open Sans', sans-serif;
+    --social-icon-size: 30px;
   }
   
   body {
@@ -14,7 +15,8 @@
     margin: 0;
     padding: 0;
     max-width: 1200px;
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   h1, h2 {
@@ -57,28 +59,29 @@
   .hero h1 {
     position: absolute;
     top: 20%;
-    left: 50%;
+    /* Center the element horizontally and vertically */
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
+    transform: translate(-50%, -50%);
     padding: 1rem;
     border-radius: 10px;
   }
-  
   .hero article {
-    position: absolute;
-    bottom: 10%;
-    left: 10%;
-    right: 10%;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 1rem;
-    border-radius: 10px;
-  }
+      position: absolute;
+      bottom: 10%;
+      left: 10%;
+      right: 10%;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 1rem;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .hero article img {
+      margin-left: 1rem;
+      width: 150px;
+    }
   
-  .hero article img {
-    float: right;
-    margin-left: 1rem;
-    width: 150px;
-  }
   
   section {
     padding: 2rem 1rem;
@@ -95,10 +98,9 @@
   footer p {
     margin: 0;
   }
-  
   .sociallinks a img {
-    width: 30px;
-    height: 30px;
+    width: var(--social-icon-size);
+    height: var(--social-icon-size);
     margin: 0 0.5rem;
   }
   
