@@ -10,7 +10,7 @@ body {
   
   /* Navigation */
   nav {
-    background-color: darkblue;
+    background-color: rgb(39, 204, 255);
     padding: 10px;
     text-align: center;
   }
@@ -23,13 +23,13 @@ body {
     transition: background 0.3s;
   }
   nav a:hover {
-    background-color: #0056b3;
+    background-color: rgb(39, 204, 255);
     border-radius: 5px;
   }
   
   /* Headings */
   h1 {
-    color: darkblue;
+    color: rgb(9, 9, 83);
     text-align: center;
     font-size: 2rem;
   }
@@ -82,7 +82,7 @@ body {
     padding: 15px;
     border-top: 1px solid #000;
     text-align: center;
-    background-color: darkblue;
+    background-color: rgb(39, 204, 255);
     color: white;
   }
   
